@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    
+}
+
+.order-page{
+    margin-top: 110px;
+}
+
+.search{
+  top:12px;
+  left: 290px;
+  cursor: pointer;
+}
+
+
+.form-control:focus{
+    box-shadow:none;
+}
+
+.green{
+    
+    color:green;
+}
