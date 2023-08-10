@@ -1,0 +1,81 @@
+::-webkit-scrollbar {
+    width: 0px;
+    height: 2px;
+}
+
+::-webkit-scrollbar-track {
+background: #f1f1f1; 
+}
+
+::-webkit-scrollbar-thumb {
+background: #888; 
+}
+
+::-webkit-scrollbar-thumb:hover {
+background: #555; 
+}
+
+.home{
+    margin-top: 85px;
+}
+
+.admin-summary .card-first{
+    border-left: 4px solid rgb(0,204,82);
+}
+
+.admin-summary .card-second{
+    border-left: 4px solid rgb(17,229,171);
+}
+
+.admin-summary .card-third{
+    border-left: 4px solid rgb(0,72,187);
+}
+
+.admin-summary .card-fourth{
+    border-left: 4px solid rgb(255,55,55);
+}
+
+.customers-list .list-group .list-group-item{
+    height: 60px;
+}
+
+.customers-list .list-group .list-group-item div{
+    height: 50px;
+    width: 50px;
+    background-color: rgb(225, 225, 225);
+    border-radius: 100%;
+    margin-right: 10px;
+    overflow: hidden;
+}
+
+.customers-list .list-group .list-group-item div img{
+    height: 100%;
+    width: auto;
+}
+
+@media only screen and (max-width: 800px) {
+    .home{
+        margin-top: 70px;
+    }
+    .recent-orders{
+        width: 85vh;
+        margin-left: -10px;
+    }
+    .orders-table{
+        width: 100vh; 
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .home{
+        margin-top: 70px;
+        margin-left: 35px;
+    }
+    .recent-orders{
+        width: 39.5vh;
+        margin-left: -5px;
+    }
+    .orders-table{
+        width: 700px; 
+    }
+}

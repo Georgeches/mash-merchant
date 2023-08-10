@@ -1,0 +1,29 @@
+#list1 .form-control {
+    border-color: transparent;
+  }
+  #list1 .form-control:focus {
+    border-color: transparent;
+    box-shadow: none;
+  }
+  #list1 .select-input.form-control[readonly]:not([disabled]) {
+    background-color: #fbfbfb;
+  }
+.btn{
+  background-color:rgb(0, 119, 255);
+  border-color: rgb(0, 119, 255);
+}
+
+.btn:hover{
+  background-color: transparent;
+  color: rgb(0, 119, 255);
+  border-color: rgb(0, 119, 255);
+
+}
+
+u{
+  color:rgb(0, 119, 255);
+}
+
+.fas{
+  color:rgb(0, 119, 255);
+}

@@ -1,0 +1,62 @@
+.header{
+  top: 0px;
+}
+
+
+li{
+  list-style-type: none;
+}
+
+.login-btn a{
+  background-color: rgb(0, 119, 255);
+}
+
+nav{
+  display: flex;
+  justify-content: space-between;
+  height: 70px;
+}
+
+.main-nav li{
+  margin-bottom: 25px;
+}
+
+.main-nav li a{
+  font-size: 16px;
+}
+
+.navbar-header .navbar-brand{
+  color: rgb(0, 119, 255);
+  font-size: 25px;
+}
+
+.nopage{
+  margin-top: 125px;
+  margin-left: 70px;
+}
+
+.nopage a{
+  color: green;
+  font-weight: 600;
+  font-size: 17px;
+}
+
+@media only screen and (min-width: 800px){
+  .main-nav{
+    margin-top: 5px !important;
+  }
+  .navbar-header .navbar-brand{
+    position: relative;
+    bottom: 11px;
+  }
+}
+
+@media only screen and (max-width: 800px){
+  .navbar-header .navbar-brand{
+    color: rgb(0, 119, 255);
+    font-size: 20px;
+  }
+  nav{
+    height: 60px;
+  }
+}
